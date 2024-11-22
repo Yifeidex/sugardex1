@@ -1,0 +1,129 @@
+.banner .bg2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5px;
+}
+
+.banner .bg3 {
+    position: absolute;
+    height: 210px;
+    width: 1071px;
+    left: 50%;
+    transform: translateX(-55%);
+    top: 100px;
+}
+
+.banner .banner_desc {
+    width: 359px;
+    height: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+    z-index: 5;
+}
+
+.banner .banner_desc .btns {
+    height: 45px;
+    width: 296px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.banner .banner_desc .btns .btn {
+    cursor: pointer;
+}
+
+.banner .banner_desc .btns .btn:hover {
+    transform: scale(1.1);
+}
+
+.banner .info_row {
+    height: 214px;
+    width: 1044px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .info_row .item1 {
+    width: 306px;
+    height: 214px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: #fff;
+
+
+}
+
+.banner .info_row .item1 img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.banner .info_row .item1 .title {
+    font-size: 24px;
+    color: #121212;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+
+.banner .info_row .item1 .text {
+    font-size: 16px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+
+
+.banner .info_row .item2 {
+    width: 384px;
+    height: 214px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: #fff;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+
+}
+
+.banner .info_row .item2 img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.banner .info_row .item2 .title {
+    font-size: 24px;
+    color: #121212;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+
+.banner .info_row .item2 .text {
+    font-size: 16px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 20px;
+
+}
