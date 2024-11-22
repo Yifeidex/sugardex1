@@ -1,0 +1,40 @@
+
+
+
+
+.banner .bg_image {
+    position: absolute;
+    left: 242px;
+    top: 0px;
+
+}
+
+.banner .desc1 {
+    position: absolute;
+    left: 120px;
+    top: 90px;
+
+}
+
+.banner .btn1 {
+    position: absolute;
+    left: 120px;
+    top: 359px;
+    cursor: pointer;
+
+}
+.banner .btn1:hover{
+    transform: scale(1.1);
+}
+
+.banner .btn2 {
+    position: absolute;
+    left: 302px;
+    top: 359px;
+    cursor: pointer;
+
+}
+
+.banner .btn2:hover{
+    transform: scale(1.1);
+}
