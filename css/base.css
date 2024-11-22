@@ -1,0 +1,144 @@
+body {
+    background: #121212;
+}
+
+.page_container {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_container {
+    width: 1440px;
+    height: 792px;
+}
+
+.header {
+    height: 58px;
+    width: 100%;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header .left .logo {
+    width: 159px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.header .left .logo .down {
+    margin-left: 10px;
+}
+
+.header .left .menus {
+    width: calc(100% - 190px);
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header .left .menus .menu {
+    width: 88px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.header .left .menus .menu.act {
+    color: #49EB8A;
+    font-weight: bold;
+    border-bottom: 2px solid #49EB8A;
+}
+
+.banner {
+    height: 582px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.footer {
+    height: 152px;
+    width: 100%;
+    background: rgb(247, 246, 246);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .left {
+    height: 100%;
+    width: 35%;
+    position: relative;
+}
+
+.footer .left .logoName {
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    color: #121212;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.footer .right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .right .link_row {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer .right .icon_row {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer .right .link_row .link {
+    font-size: 16px;
+    color: rgba(18, 18, 18,0.6);
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.footer .right .icon_row .icon {
+    margin-left: 35px;
+}
